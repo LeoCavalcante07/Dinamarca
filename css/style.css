@@ -1,0 +1,427 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(232, 232, 232), rgb(214, 209, 209), rgb(170, 170, 170));    
+}
+
+body:hover{
+/*    cursor: wait;*/
+
+}
+
+p, h1, h2, h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;   
+    margin-bottom: 18px;
+    color: white;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 25px;
+}
+
+
+/*COMEÇO HEADER*/
+.caixa_header{
+    height: 200px;
+    width: 100%;
+/*    background-color: rgba(221, 11, 11, 0.9);*/
+    background-color: black;
+    color: white;
+    position: fixed;
+}
+
+.caixa_logo{
+    height: 150px;
+    width: 150px;
+    background-image: url(../imagens/iconDinamarca.PNG);
+    float: left;
+}
+
+#nome_site{
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+
+
+.caixa_invisivel{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.caixa_menu{
+    width: 700px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;    
+
+}
+
+.caixaMenuItem{
+    width: 25%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+/*    padding-top: 20px;*/
+/*    background-color: aquamarine;*/
+    
+}
+
+.caixaMenuItem:hover{
+    border-bottom: solid 1px white;
+    cursor: pointer;
+}
+
+
+.caixa_seg_pesquisa{
+    width: 200px;
+    height: 34px;    
+    margin-left: 1350px;
+    margin-top: -200px;
+    clear: both;
+}
+.caixa_pequisa{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 1px;
+    background-color: white;
+/*    margin-left: 1350px;*/
+    
+}
+
+
+
+#txtBuscar{
+    height: 28px;
+    border: none;   
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;    
+    float: left;
+}
+
+.iconSearch{
+    width: 28px;
+    height: 28px; 
+    background-image: url(../imagens/iconSearch.png);
+    background-repeat: no-repeat;
+    
+    float: left;
+}
+
+/*FIM HEADER*/
+
+
+/*CONTEUDO*/
+.container{
+    min-height: 10px;
+    height: auto;
+    width: 1700px;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    margin-top: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+        
+}
+
+.container p, h2{
+    color: white;
+}
+
+
+
+#imgHome{
+    width: 100%;
+    height: 1000px;
+    border: solid 1px black;
+    background-image: url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+
+.caixa_sobre_titulo{
+    width: 130px;
+    height: 40px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.caixa_sobre_texto{
+    padding: 5px;
+    width: 1300px;
+    height: 390px;
+    
+/*
+    background-color: 
+    rgba(0, 2, 5, 0.2);
+*/
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-bottom: 100px;
+    
+}
+
+
+
+/*CULTURA*/
+.seg_cultura{
+    width: 100%;
+    height: 1100px;
+    border: solid 1px black;    
+    margin-left: auto;
+    margin-right: auto;   
+    
+}
+
+#titulo_cultura{
+    margin-left: 700px;
+
+}
+
+/*PESSOAS*/
+.caixa_pessoas{
+    width: 1300px;
+    height: 400px;
+    
+    margin-left: auto;
+    margin-right: auto;     
+    margin-bottom: 50px;
+    
+}
+
+
+.caixa_pessoas_img{
+    width: 450px;
+    height: 300px;
+    border: solid 1px black;
+    background-image: url(../imagens/pessoas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.caixa_pessoas_texto{
+    margin-left: 50px;
+    width: 770px;
+    height: 300px;
+    
+    float: left;
+}
+
+
+/*COSTUMES*/
+.caixa_costumes{
+    width: 1300px;
+    height: 400px;
+    
+    margin-left: auto;
+    margin-right: auto;     
+    margin-bottom: 50px;
+    
+}
+
+
+.caixa_costumes_img{
+    margin-left: 50px;
+    width: 450px;
+    height: 300px;
+    border: solid 1px black;
+    background-image: url(../imagens/pessoas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.caixa_costumes_texto{
+    
+    width: 770px;
+    height: 300px;
+    
+    float: left;
+}
+
+
+
+/*DANÇAS/MUSICAS*/
+.caixa_dancas{
+    width: 1300px;
+    height: 400px;
+    
+    margin-left: auto;
+    margin-right: auto;     
+    margin-bottom: 50px;
+    
+}
+
+
+.caixa_dancas_img{
+    width: 450px;
+    height: 300px;
+    border: solid 1px black;
+    background-image: url(../imagens/pessoas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.caixa_dancas_texto{
+    margin-left: 50px;
+    width: 770px;
+    height: 300px;
+    
+    float: left;
+}
+
+/*FIM CULTURA*/
+
+
+
+/*COMIDA*/
+.segComida{
+    width: 1300px;
+    height: 1950px;
+    margin-left: auto;
+    margin-right: auto;   
+    margin-bottom: 200px;
+}
+
+
+.caixa_comida{
+    height: 500px;
+    width: 1300px;
+
+    margin-top: 100px;
+}
+
+
+.comida{
+    width: 1300px;
+    height: 400px;    
+    margin-left: auto;
+    margin-right: auto;     
+    margin-bottom: 50px;
+    
+}
+
+
+.caixa_comida_img{
+    width: 450px;
+    height: 300px;
+    border: solid 1px black;
+    background-image: url(../imagens/comida1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.caixa_comida_sobre{
+    margin-left: 50px;
+    width: 770px;
+    height: 300px;
+    
+    float: left;
+}
+
+.caixa_titulo_comida{
+    margin-left: 800px;
+}
+
+
+.caixa_comida_opnioes{
+    margin-top: 330px;
+    width: 1200px;
+    height: 100px;
+    
+    margin-left: auto;
+    margin-right: auto;      
+    
+}
+
+
+
+/*CURIOSIDADES*/
+.caixa_seg_curiosidades{
+    width: 1300px;
+    height: 1700px;
+    margin-left: auto;
+    margin-right: auto;   
+    
+    
+}
+
+
+.caixa_curiosidade_1{
+    height: 750px;
+    width: 1000px;
+    
+    margin-left: 90px;
+    float: left;
+    
+}
+
+.curiosidade1_imagem{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    background-color: red;
+    background-size: cover;
+}
+
+
+.caixa_curiosidade_2{
+    height: 750px;
+    width: 600px;
+    float: left;
+    
+}
+
+.curiosidade2_imagem{
+    margin-top: 50px;
+    width: 100%;
+    height: 320px;
+    margin-bottom: 70px;
+    background-color: red;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
